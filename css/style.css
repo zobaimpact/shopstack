@@ -53,7 +53,6 @@ h6 {
 
 p {
   font-size: 15px;
-  color: #7b7b7b;
   font-weight: 400;
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
@@ -157,7 +156,15 @@ ol {
 }
 
 #features-container {
-  background: whitesmoke;
+  background: rgb(98, 153, 153);
+  padding:10px !important;
+  border-radius: 10px !important;
+
+}
+
+#support-icons{
+  padding-top:15px !important;
+
 }
 
 .site-btn {
@@ -627,7 +634,7 @@ ol {
 }
 
 .features-ads .single-features-ads p {
-  color: #727272;
+  color: white;
   font-size: 14px;
   line-height: 27px;
   font-weight: 500;
@@ -952,7 +959,7 @@ ol {
 .newsletter-form form button {
   width: 310px;
   height: 53px;
-  background: #b0bcc2;
+  background: rgb(85, 4, 17);
   border: 2px solid #b0bcc2;
   color: #fff;
   cursor: pointer;
@@ -1057,6 +1064,11 @@ ol {
 
 .social-links a:hover span {
   color: #fff;
+}
+
+.pt-5 p{
+  color:white;
+  
 }
 
 #github-link{
@@ -1979,8 +1991,8 @@ ol {
 }
 
 .payment-method button {
-  color: #1e1e1e;
-  background: transparent;
+  color: rgb(78, 11, 22);
+  /* background: transparent; */
   border: none;
   font-weight: 600;
   width: 100%;
